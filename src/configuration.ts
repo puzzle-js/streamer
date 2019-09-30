@@ -1,0 +1,6 @@
+class Configuration {
+}
+
+export {
+  Configuration
+}

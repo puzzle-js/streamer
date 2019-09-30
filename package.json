@@ -1,0 +1,33 @@
+{
+  "name": "streamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puzzle-js/streamer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puzzle-js/streamer/issues"
+  },
+  "homepage": "https://github.com/puzzle-js/streamer#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.5",
+    "chai": "^4.2.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "avvio": "^6.2.2",
+    "find-my-way": "^2.1.1"
+  }
+}
